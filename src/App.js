@@ -378,59 +378,6 @@ const App = () => {
                     </div>
                 </div>
             </div>
-            <div className='sectio' ref={myRef}>
-                <div className='info-heading'>Our Team</div>
-                <div className='fle'>
-                    <a href='https://twitter.com/thegreatfellow'>
-                        <div className='grid-containe'>
-                            <img src={shreyas} className='ap' alt='ape' />
-                            <a
-                                href='https://twitter.com/thegreatfellow'
-                                className='twitter'
-                            >
-                                @thegreafellow
-                            </a>
-                            <div className='name'>Front-end dev</div>
-                        </div>
-                    </a>
-                    <a href='https://twitter.com/pareekshit1620'>
-                        <div className='grid-containe'>
-                            <img src={pareekshit} className='ap' alt='ape' />
-                            <a
-                                href='https://twitter.com/pareekshit1620'
-                                className='twitter'
-                            >
-                                @pareekshit1620
-                            </a>
-                            <div className='name'>Full-stack dev</div>
-                        </div>
-                    </a>
-                    <a href='https://twitter.com/pranavgamedev'>
-                        <div className='grid-containe'>
-                            <img src={mishra} className='ap' alt='ape' />
-                            <a
-                                href='https://twitter.com/pranavgamedev'
-                                className='twitter'
-                            >
-                                @pranavgamedev
-                            </a>
-                            <div className='name'>Game dev</div>
-                        </div>
-                    </a>
-                    <a href='https://twitter.com/pranav_vasist'>
-                        <div className='grid-containe'>
-                            <img src={vasist} className='ap' alt='ape' />
-                            <a
-                                href='https://twitter.com/pranav_vasist'
-                                className='twitter'
-                            >
-                                @pranav_vasist
-                            </a>
-                            <div className='name'>Developer</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
         </div>
     )
 }
